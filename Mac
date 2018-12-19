@@ -1,6 +1,7 @@
 
 # iTerm
 # Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # Git
 # GitKraken
 # SublimeText
@@ -9,17 +10,30 @@
 # Visual Studio for Mac
 # Docker
 # Kubernetes
+brew install kubernetes-cli
 # MiniKube
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.31.0/minikube-darwin-amd64 && chmod +x minikube && sudo cp minikube /usr/local/bin/ && rm minikube
 # Terraform
+brew install terraform
 # Ansible
 # Speedtest-cli
+brew install speedtest-cli
 # Aws-cli
+brew install awscli
+# Azure-cli
+brew update && brew install azure-cli
 # PowerShell for Mac
-# Python
+brew cask install powershell
+# Python and Pip | Pip3
+brew install python
 # Saws
-# Boto
+pip3 install saws
+# Boto | Boto3
+pip3 install boto3
 # Htop
+brew install htop
 # NeoVim
+brew install neovim
 # Postman
 # OctoTree Chrome extension for GitHub
 # Slack
