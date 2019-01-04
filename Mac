@@ -25,6 +25,8 @@ brew install awscli
 brew update && brew install azure-cli
 # PowerShell for Mac
 brew cask install powershell
+# .NET Core
+brew cask intall dotnet
 # Python and Pip | Pip3
 brew install python
 # Saws
