@@ -41,3 +41,5 @@ brew install neovim
 # OctoTree Chrome extension for GitHub
 # Slack
 # Trello
+# Fun Stuff: Cowsay, Watch, Fortune and Toilet
+brew install cowsay watch fortune toilet
